@@ -18,41 +18,41 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6418234245').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/IM_JISSHU") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002105216604'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/JisshuMovieZone')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002132977892').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7406982863').split()]
+USERNAME = environ.get('USERNAME', "t.me/Deendayal_dhakad_Contact") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002420379915'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Deendayal_Hindi_Movies')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002277314287').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sunil664023:eieqy2jRVIbzD29r@cluster0.ezot5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002105216604'))  # set shortner log channel
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002105216604'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002105216604')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002105216604'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002105216604') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002105216604')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Botszone_minata') #Support group link ( make sure bot is admin )
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002420379915'))  # set shortner log channel
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002355653029')) # The movie you upload in it will be deleted from the bot.
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002271373510'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1002568854373')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002675536595'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002359223854') # If anyone sends a request message to your bot, you will get it in this channel.
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002456267845')) # 
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/deendayal_support_chat') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Botszone_minata")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Botszone_minata")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Botszone_minata")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Denu_dhakad")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Denu_dhakad")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Denu_dhakad")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
+SHORTENER_API = environ.get("SHORTENER_API", "56c07cb48be6bdc420dbb13bdc442b39224aa5b5")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'linkcents.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "56c07cb48be6bdc420dbb13bdc442b39224aa5b5")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'linkcents.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "56c07cb48be6bdc420dbb13bdc442b39224aa5b5")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'linkcents.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -78,14 +78,14 @@ REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
+FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '300'))
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', False)
 IS_SEND_MOVIE_UPDATE = is_enabled('IS_SEND_MOVIE_UPDATE', False) # Don't Change It ( If You Want To Turn It On Then Turn It On By Commands) We Suggest Make It Turn Of If You Indexing Files First Time.
 PORT = environ.get('PORT', '5000')
 MAX_BTN = int(environ.get('MAX_BTN', '8'))
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
-DELETE_TIME = int(environ.get('DELETE_TIME', 1200))
+DELETE_TIME = int(environ.get('DELETE_TIME', 300))
 IMDB = is_enabled('IMDB', False)
 FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
